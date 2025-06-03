@@ -4,6 +4,5 @@ jobs:
   check-bats-version:
     runs-on: ubuntu-latest
     steps:
-    - run: echo "first action!"
-    - run: exit 1
-
+    - run: echo "hello.shのチェック"
+    - run: ./hello-test.sh
